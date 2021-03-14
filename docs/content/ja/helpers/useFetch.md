@@ -35,7 +35,6 @@ export default defineComponent({
 
 <alert>
 
-`useFetch` must be called synchronously within `setup()`. Any changes made to component data - that is, to properties _returned_ from `setup()` - will be sent to the client and directly loaded. Other side-effects of `useFetch` hook will not be persisted.
 `useFetch` は `setup()` の中で同期的に呼ばれなければなりません。コンポーネントのdataに対して、つまり、`setup()` から _返却される_ プロパティに対してなされるいかなる変更も、クライアントに送られ直接読み込まれます。`useFetch` フックのその他の副作用は後に残りません。
 
 </alert>
